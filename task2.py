@@ -33,7 +33,7 @@ def read_and_highlight():
        
 
 tts_engine = pyttsx3.init()
-tts_engine.setProperty("rate", 600)  
+tts_engine.setProperty("rate", 400)  
 
 pdf_path = ("C:/Users/AAC/Desktop/maham/sampletask.pdf")
 pdf_text = extract_text_from_pdf(pdf_path)
